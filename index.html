@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            background:#333 url(images/mac.jpg) no-repeat center;
+            background-size: 100%;
+            color: #fff;
+            font-size: 14px;
+            font-family: "微软雅黑";
+        }
+        .nav{
+            height: 50px;
+            background-color: #33333336;
+        }
+        .nav-wrap{
+            height: 50px;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            /* border: 1px solid red; */
+            overflow: hidden;
+            line-height: 50px;
+        }
+        .left-logo{
+            float: left;
+            font-weight: bold;
+        }
+        .nav-wrap .right{
+            float: right;
+            /* width: 200px; */
+            height: 50px;
+            /* background-color: green; */
+        }
+        .nav-wrap a{
+            text-decoration: none;
+            color:#fff;
+            margin-left: 30px;
+            font-size: 12px;
+        }
+        .nav-wrap a:hover{
+            color: #eee;
+
+        }
+        .container{
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            text-align: center;
+            margin-top: 150px;
+        }
+        .container p{
+            line-height: 40px;
+        }
+        .container button{
+            width: 160px;
+            height: 60px;
+            color: #fff;
+            outline: 5px solid #ffffff7b;
+            border-radius: 30px;
+            background-color: #8d68a7;
+        }
+        .nav-bottom{
+            width: 100%;
+            height: 30px;
+            background-color: #434141;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-wrap">
+            <div class="left-logo">LOGO</div>
+            <div class="right">
+                <a href="">首页</a>
+                <a href="">关于</a>
+                <a href="">产品</a>
+                <a href="">案例</a>
+                <a href="">联系我们</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>一切皆有可能</h2>
+        <p>Just Do It</p>
+        <button>点击查询</button>
+    </div>
+    <div class="nav-bottom">
+        <h3>中地数码</h3>
+    </div>
+</body>
+</html>
